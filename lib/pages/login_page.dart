@@ -11,8 +11,8 @@ class LoginPage extends StatefulWidget {
 }
 
 class _LoginPageState extends State<LoginPage> {
-  TextEditingController _tfLogin = TextEditingController(text:"turimthiago@gmail.com");
-  TextEditingController _tfSenha = TextEditingController(text: "123456");
+  TextEditingController _tfLogin = TextEditingController();
+  TextEditingController _tfSenha = TextEditingController();
   GlobalKey<FormState> _formKey = GlobalKey<FormState>();
   StreamController _controller = StreamController<bool>();
 
